@@ -50,8 +50,7 @@ mergeDataSets <- function() {
     rbind(testData,trainData)
 }
 
-#Given a directory, name of data (test or train) and a potential header to attach, 
-#reads in data from the dataset
+
 get_data <- function(dirName,dataName,header=NULL) {
     dataFilename <- paste(dataName,'_',dirName,'.txt',sep='')
     dataAddress <- paste(dirName,dataFilename,sep='\\')
@@ -95,31 +94,11 @@ prettify_vars <- function(df) {
     #Remove unsighlty '()'
     processing <- gsub('\\(\\)','',processing)
     #convert hyphens to underscores
-    processing <- gsub('-','_',processing)
-    
-    #convert f at start to 'fourier_'
-    processing <- gsub('^f','fourier_',processing)
-    #likewise for time
-    processing <- gsub('^t','time_',processing)
-    
-    processing <- reprocess_var_names(processing,'x')
-    processing <- reprocess_var_names(processing,'y')
-    processed <- reprocess_var_names(processing,'z')
+    processed <- gsub('-','_',processing)
     
     #assign new variable names and return
     names(df) <- processed
     return(df)
-}
-
-#further clean variable names
-reprocess_var_names <- function(names,dimString) {
-    toChange <- grep(paste0('_',dimString),names)
-    reNamed <- names[toChange]
-    reNamed <- gsub(paste0('_',dimString,'$'),'',names[toChange])
-    reNamed <- gsub('_mean',paste0('_',dimString,'_mean'),reNamed)
-    reNamed <- gsub('_std',paste0('_',dimString,'_std'),reNamed)
-    names[toChange] <- reNamed
-    return(names)
 }
 
 #create name vector for summary data.frame in question 5, adding 'ave_' in front of everything
