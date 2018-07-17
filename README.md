@@ -1,14 +1,14 @@
-##Getting and Cleaning Data Assignment README
+## Getting and Cleaning Data Assignment README
 
 This package is designed to refine and summarise data from samsung's fitness activity dataset
 
-###Quickstart guide:
+### Quickstart guide:
 -> Download this repository 'Getting and Cleaning Data Assignment' from github.com/jordanjamessands/getting-and-cleaning-data-assignment
 -> set working directory to the 'getting-and-cleaning-data-assignment' directory
 -> For part 1, run: 'run_analysis.R'
 -> See summary_table.txt for part 2 or run: 'part2.R'
 
-###run_analysis_library
+### run_analysis_library
 
 #combine subject, activity and summaryStatistics datasets
 combineData <- function(dirName)
