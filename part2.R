@@ -1,5 +1,5 @@
-#load run_analysis_library.R
-source('run_analysis_library.R')
+# source run_analysis_library.R to the global environment before running
+
 
 prevDir <- getwd()
 
