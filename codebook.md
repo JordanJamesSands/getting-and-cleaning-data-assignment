@@ -1,5 +1,4 @@
-Feature Selection 
-=================
+## Feature Selection 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -10,19 +9,19 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 These signals were then summarised for each trial with the metrics below (means and standard deviations):
 
-===============METADATA===============
+## METADATA
 
-subjectID
+### subjectID
 	Number between 1 and 30 denoting the unique ID assigned to each subject
-activity
+### activity
 	The activity performed during the trial, one of walking, walking upstairs, walking downstairs, sitting, standing and laying
 	
-===============TIME INDEXED DATA===============
+## TIME INDEXED DATA
 	
-time_bodyacc_DIM_mean
+### time_bodyacc_DIM_mean
 	body acceleration averaged over time, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
 
-time_gravityacc_DIM_mean
+### time_gravityacc_DIM_mean
 	Total gravitational acceleration averaged over time, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
 
 time_bodyacc_jerk_DIM_mean
