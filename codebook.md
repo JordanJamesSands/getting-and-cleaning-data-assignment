@@ -11,40 +11,40 @@ These signals were then summarised for each trial with the metrics below (means 
 
 ## METADATA
 
-### subjectID
+#### subjectID
 Number between 1 and 30 denoting the unique ID assigned to each subject
-### activity
+#### activity
 The activity performed during the trial, one of walking, walking upstairs, walking downstairs, sitting, standing and laying
 	
 ## TIME INDEXED DATA	
-### time_bodyacc_DIM_mean
+#### time_bodyacc_DIM_mean
 body acceleration averaged over time, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
 
-### time_gravityacc_DIM_mean
+#### time_gravityacc_DIM_mean
 Total gravitational acceleration averaged over time, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
 
-### time_bodyacc_jerk_DIM_mean
+#### time_bodyacc_jerk_DIM_mean
 body jerk averaged over time, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
 
-### time_bodygyro_DIM_mean
+#### time_bodygyro_DIM_mean
 gyroscopic acceleration of the body, averaged over time, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
 
-### time_bodygyrojerk_DIM_mean
+#### time_bodygyrojerk_DIM_mean
 gyroscopic jerk of the body, averaged over time, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
 
-### time_bodyaccmag_mean
+#### time_bodyaccmag_mean
 Magnitute of body acceleration, averaged over time, normalised to within [-1,1].
 
-### time_gravityaccmag_mean
+#### time_gravityaccmag_mean
 Magnitute of total gravitational acceleration, averaged over time, normalised to within [-1,1].
 	
-### time_bodyaccjerkmag_mean
+#### time_bodyaccjerkmag_mean
 Magnitute of jerk of the body, averaged over time, normalised to within [-1,1].
 
-### time_bodygyromag_mean
+#### time_bodygyromag_mean
 Magnitute of gyroscopic acceleration on the body, averaged over time, normalised to within [-1,1].
 
-### time_bodygyrojerkmag_mean
+#### time_bodygyrojerkmag_mean
 Magnitute of gyroscopic jerk on the body, averaged over time, normalised to within [-1,1].
 	
 	
@@ -53,25 +53,25 @@ Magnitute of gyroscopic jerk on the body, averaged over time, normalised to with
 #### fourier_bodyacc_DIM_mean
 body acceleration averaged over transformed wave, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
 
-### fourier_bodyacc_jerk_DIM_mean
+#### fourier_bodyacc_jerk_DIM_mean
 body jerk averaged over transformed wave, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
 
-### fourier_bodygyro_DIM_mean
+#### fourier_bodygyro_DIM_mean
 gyroscopic acceleration of the body, averaged over transformed wave, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
 
-### fourier_bodygyrojerk_DIM_mean
+#### fourier_bodygyrojerk_DIM_mean
 gyroscopic jerk of the body, averaged over transformed wave, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
 
-### fourier_bodyaccmag_mean
+#### fourier_bodyaccmag_mean
 Magnitute of body acceleration, averaged over transformed wave, normalised to within [-1,1].
 
-### fourier_bodyaccjerkmag_mean
+#### fourier_bodyaccjerkmag_mean
 Magnitute of jerk of the body, averaged over transformed wave, normalised to within [-1,1].
 
-### fourier_bodygyromag_mean
+#### fourier_bodygyromag_mean
 Magnitute of gyroscopic acceleration on the body, averaged over transformed wave, normalised to within [-1,1].
 
-### fourier_bodygyrojerkmag_mean
+#### fourier_bodygyrojerkmag_mean
 Magnitute of gyroscopic jerk on the body, averaged over transformed wave, normalised to within [-1,1].	
 
 Note that the data also includes standard deviation of all of the above data, denoted std
