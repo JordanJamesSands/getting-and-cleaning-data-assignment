@@ -48,35 +48,33 @@ Magnitute of gyroscopic acceleration on the body, averaged over time, normalised
 Magnitute of gyroscopic jerk on the body, averaged over time, normalised to within [-1,1].
 	
 	
-===============TRANSFORMED (FOURIER) DATA===============
+## TRANSFORMED (FOURIER) DATA
 
-fourier_bodyacc_DIM_mean
-	body acceleration averaged over transformed wave, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
+#### fourier_bodyacc_DIM_mean
+body acceleration averaged over transformed wave, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
 
-fourier_bodyacc_jerk_DIM_mean
-	body jerk averaged over transformed wave, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
+### fourier_bodyacc_jerk_DIM_mean
+body jerk averaged over transformed wave, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
 
-fourier_bodygyro_DIM_mean
-	gyroscopic acceleration of the body, averaged over transformed wave, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
+### fourier_bodygyro_DIM_mean
+gyroscopic acceleration of the body, averaged over transformed wave, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
 
-fourier_bodygyrojerk_DIM_mean
-	gyroscopic jerk of the body, averaged over transformed wave, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
+### fourier_bodygyrojerk_DIM_mean
+gyroscopic jerk of the body, averaged over transformed wave, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
 
-fourier_bodyaccmag_mean
-	Magnitute of body acceleration, averaged over transformed wave, normalised to within [-1,1].
+### fourier_bodyaccmag_mean
+Magnitute of body acceleration, averaged over transformed wave, normalised to within [-1,1].
 
-	
-fourier_bodyaccjerkmag_mean
-	Magnitute of jerk of the body, averaged over transformed wave, normalised to within [-1,1].
+### fourier_bodyaccjerkmag_mean
+Magnitute of jerk of the body, averaged over transformed wave, normalised to within [-1,1].
 
-fourier_bodygyromag_mean
-	Magnitute of gyroscopic acceleration on the body, averaged over transformed wave, normalised to within [-1,1].
+### fourier_bodygyromag_mean
+Magnitute of gyroscopic acceleration on the body, averaged over transformed wave, normalised to within [-1,1].
 
-fourier_bodygyrojerkmag_mean
-	Magnitute of gyroscopic jerk on the body, averaged over transformed wave, normalised to within [-1,1].	
-
+### fourier_bodygyrojerkmag_mean
+Magnitute of gyroscopic jerk on the body, averaged over transformed wave, normalised to within [-1,1].	
 
 Note that the data also includes standard deviation of all of the above data, denoted std
 	
---- summary.txt ---
+## summary.txt
 This table summarises the above data by averaging the values of each subject activity pair. 30 subjects x 6 activities makes 180 rows of the summary table.
