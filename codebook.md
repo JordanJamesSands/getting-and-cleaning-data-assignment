@@ -12,41 +12,40 @@ These signals were then summarised for each trial with the metrics below (means 
 ## METADATA
 
 ### subjectID
-	Number between 1 and 30 denoting the unique ID assigned to each subject
+Number between 1 and 30 denoting the unique ID assigned to each subject
 ### activity
-	The activity performed during the trial, one of walking, walking upstairs, walking downstairs, sitting, standing and laying
+The activity performed during the trial, one of walking, walking upstairs, walking downstairs, sitting, standing and laying
 	
-## TIME INDEXED DATA
-	
+## TIME INDEXED DATA	
 ### time_bodyacc_DIM_mean
-	body acceleration averaged over time, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
+body acceleration averaged over time, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
 
 ### time_gravityacc_DIM_mean
-	Total gravitational acceleration averaged over time, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
+Total gravitational acceleration averaged over time, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
 
-time_bodyacc_jerk_DIM_mean
-	body jerk averaged over time, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
+### time_bodyacc_jerk_DIM_mean
+body jerk averaged over time, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
 
-time_bodygyro_DIM_mean
-	gyroscopic acceleration of the body, averaged over time, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
+### time_bodygyro_DIM_mean
+gyroscopic acceleration of the body, averaged over time, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
 
-time_bodygyrojerk_DIM_mean
-	gyroscopic jerk of the body, averaged over time, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
+### time_bodygyrojerk_DIM_mean
+gyroscopic jerk of the body, averaged over time, normalised to within [-1,1]. Where DIM is one of X,Y,Z relating to dimension measured
 
-time_bodyaccmag_mean
-	Magnitute of body acceleration, averaged over time, normalised to within [-1,1].
+### time_bodyaccmag_mean
+Magnitute of body acceleration, averaged over time, normalised to within [-1,1].
 
-time_gravityaccmag_mean
-	Magnitute of total gravitational acceleration, averaged over time, normalised to within [-1,1].
+### time_gravityaccmag_mean
+Magnitute of total gravitational acceleration, averaged over time, normalised to within [-1,1].
 	
-time_bodyaccjerkmag_mean
-	Magnitute of jerk of the body, averaged over time, normalised to within [-1,1].
+### time_bodyaccjerkmag_mean
+Magnitute of jerk of the body, averaged over time, normalised to within [-1,1].
 
-time_bodygyromag_mean
-	Magnitute of gyroscopic acceleration on the body, averaged over time, normalised to within [-1,1].
+### time_bodygyromag_mean
+Magnitute of gyroscopic acceleration on the body, averaged over time, normalised to within [-1,1].
 
-time_bodygyrojerkmag_mean
-	Magnitute of gyroscopic jerk on the body, averaged over time, normalised to within [-1,1].
+### time_bodygyrojerkmag_mean
+Magnitute of gyroscopic jerk on the body, averaged over time, normalised to within [-1,1].
 	
 	
 ===============TRANSFORMED (FOURIER) DATA===============
